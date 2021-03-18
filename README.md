@@ -9,9 +9,6 @@
    - The 15 Puzzle;
    
 -> Projects BackEnd:
-   - 
-   -
 
 -> Projects FullStack:
-   - 
-   -
+
