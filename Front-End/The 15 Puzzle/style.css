@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    color: black;
+    background: #ffffff;
+}
+/*.menu {
+    top: 10px;
+    left:50px;
+    position: absolute;
+}
+
+.menu a{
+    text-decoration: none;
+}*/
+
+#mapGame{
+    width: 640px;
+    height: 640px;
+    margin: auto;
+    border: 4px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.numberCard:active{
+    transform: scale(0.95);
+}
+
+.numberCard {
+    text-align: center;
+    vertical-align: center;
+    width: calc(25% - 10px);
+    height: calc(25% - 10px);
+    margin: 5px;
+    position: relative;
+    border: 2px solid blue;
+    background: lightblue;
+}
+
+#Zero {
+    text-align: center;
+    width: calc(25% - 10px);
+    height: calc(25% - 10px);
+    margin: 5px;
+    position: relative;
+    border: 0;
+    color: white;
+    background: white;
+
+}
+
+.numberCard a{
+    font-size: 100px;
+    vertical-align: center;
+}
